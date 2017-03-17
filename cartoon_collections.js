@@ -1,13 +1,25 @@
 function dwarfRollCall(dwarves) {
-	//your code here!
+  var dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
+  dwarves.forEach(function(dwarf, index){
+    var number = index + 1;
+    console.log(number + "." + dwarf);
+    return dwarves;
+  });
 }
 
 function summonCaptainPlanet(planeteerCalls){
-	//your code here!
+  var planeteerCalls = ["earth", "wind", "fire", "water", "heart"];
+  planeteerCalls.forEach(function(element, index){
+    console.log(element.toUpperCase() + "!");
+    return planeteerCalls
+  });
 }
 
 function longPlaneteerCalls(words) {
-	//your code here!
+  
+
+
+  //your code here!
 }
 
 function findTheCheese(foods) {
