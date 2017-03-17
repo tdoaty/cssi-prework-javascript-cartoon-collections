@@ -16,12 +16,12 @@ function summonCaptainPlanet(planeteerCalls){
 }
 
 function longPlaneteerCalls(words) {
-  
-
-
-  //your code here!
-}
-
+  var words = ["earth", "wind", "fire", "water", "heart"]
+  for (var shortWords = "wind", "fire"; shortWords<4)
+  {
+    if (shortWords
+  }
+  for (var assortedWords = words;
 function findTheCheese(foods) {
 	// your code here!
 }
